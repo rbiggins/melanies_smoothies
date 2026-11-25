@@ -4,6 +4,7 @@ from snowflake.snowpark.context import get_active_session
 from snowflake.snowpark.functions import col
 import requests
 import pandas as pd
+search_on = ""
 
 # Write directly to the app
 st.title(f":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
